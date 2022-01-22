@@ -4,6 +4,7 @@
 // imports
 
 @import "mixin";
+@import "variables";
 
 * {
   margin: 0;
@@ -38,9 +39,48 @@ nav ul {
     font-weight: 600;
     letter-spacing: 0.2rem;
     cursor: pointer;
+    &:hover {
+      color: $off-color;
+    }
   }
 }
 .nav-btn {
   @include common-btn;
   margin-left: 5rem;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 0 0 5rem;
+  background: rgba($off-color, 0.05);
+}
+
+.page-title {
+  text-transform: capitalize;
+  font-size: 5rem;
+  max-width: 70%;
+
+  color: $secondary-color;
+}
+
+.banner-img {
+  width: 50rem;
+}
+.banner-description {
+  font-size: 2rem;
+  width: 50rem;
+  max-width: 70%;
+  padding: 0 0 0 2rem;
+  margin: 1.5rem 0 0 0;
+  border-left: 1px solid $secondary-color;
+  color: $off-color;
+}
+
+.banner-btn {
+  @include common-btn;
+  text-transform: capitalize;
+  margin-top: 5rem;
 }
