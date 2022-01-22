@@ -1,4 +1,10 @@
-
-@mixin common-btn{
-    background:red;
+@mixin common-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  cursor: pointer;
 }
