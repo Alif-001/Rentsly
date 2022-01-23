@@ -84,3 +84,42 @@ nav ul {
   text-transform: capitalize;
   margin-top: 5rem;
 }
+
+// find section
+
+.find-section-part {
+  margin: 5rem 5rem 0 5rem;
+  @include shadow;
+}
+
+.find-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem 5rem 0 5rem;
+  margin-bottom: 5rem;
+  background: white;
+  padding: 2rem 5rem 2rem 5rem;
+
+  .find-btn {
+    @include common-btn;
+  }
+}
+
+.select-section {
+  margin: 0 4rem;
+  width: 20rem;
+
+  select {
+    padding: 1em 1.5em;
+    background: white;
+    border: 0.5px solid $off-color;
+    &:active,
+    &:focus,
+    &::selection,
+    &:after {
+      border: 1px solid red;
+      outline: none;
+    }
+  }
+}
