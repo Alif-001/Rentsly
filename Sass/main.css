@@ -190,10 +190,10 @@ nav ul li:hover {
   padding: 0 5rem;
 }
 
-.about-section-wrapper .about-text .about-title {
+.about-section-wrapper .about-text .about-indicator {
   font-size: 2rem;
   color: #e30916;
-  background: rgba(227, 9, 22, 0.03);
+  background: rgba(227, 9, 22, 0.04);
   text-transform: capitalize;
   padding: 5px 20px;
   border-radius: 25px;
@@ -202,6 +202,7 @@ nav ul li:hover {
 .about-section-wrapper .about-text h2 {
   margin-top: 40px;
   font-size: 4rem;
+  color: #071c1f;
 }
 
 .about-section-wrapper .about-text h2::after {
@@ -288,10 +289,92 @@ nav ul li:hover {
   font-weight: 700;
   text-align: center;
   margin: 10px 0;
+  color: #071c1f;
 }
 
 .statics-section p {
   font-size: 3rem;
   color: #5c727d;
+}
+
+.our-services {
+  background: rgba(92, 114, 125, 0.05);
+  padding: 30px;
+}
+
+.our-services .our-services-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.our-services .our-services-container .our-services-indicator {
+  font-size: 2rem;
+  color: #e30916;
+  background: rgba(227, 9, 22, 0.04);
+  text-transform: capitalize;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+
+.our-services .our-services-container h3 {
+  margin: 30px 0;
+  font-size: 5rem;
+  color: #071c1f;
+}
+
+.our-services .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 30px;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.our-services .card-container .card {
+  background-color: white;
+  margin: 30px;
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.19);
+          box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.19);
+  padding: 30px;
+}
+
+.our-services .card-container .card h5 {
+  font-size: 2.4rem;
+  color: #071c1f;
+}
+
+.our-services .card-container .card p {
+  font-size: 1.6rem;
+  color: #5c727d;
+  padding: 30px;
+}
+
+.our-services .card-container .card a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #e30916;
+  font-weight: 600;
+}
+
+.our-services .card-container .card a:hover {
+  color: #071c1f;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #e30916;
 }
 /*# sourceMappingURL=main.css.map */

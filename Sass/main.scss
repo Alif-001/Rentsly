@@ -143,17 +143,13 @@ nav ul {
   }
   .about-text {
     padding: 0 5rem;
-    .about-title {
-      font-size: 2rem;
-      color: ($main-color);
-      background: rgba($main-color, 0.03);
-      text-transform: capitalize;
-      padding: 5px 20px;
-      border-radius: 25px;
+    .about-indicator {
+      @include section-title;
     }
     h2 {
       margin-top: 40px;
       font-size: 4rem;
+      color: $secondary-color;
       &::after {
         content: ".";
         color: $main-color;
@@ -224,9 +220,64 @@ nav ul {
     font-weight: 700;
     text-align: center;
     margin: 10px 0;
+    color: $secondary-color;
   }
   p {
     font-size: 3rem;
     color: $off-color;
+  }
+}
+
+// our service section
+.our-services {
+  background: rgba($off-color, 0.05);
+  padding: 30px;
+  .our-services-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    .our-services-indicator {
+      @include section-title;
+    }
+    h3 {
+      margin: 30px 0;
+      font-size: 5rem;
+      color: $secondary-color;
+    }
+  }
+  .card-container {
+    display: flex;
+    margin: 0 30px;
+    text-align: center;
+    justify-content: space-evenly;
+    .card {
+      background-color: white;
+      margin: 30px;
+      @include shadow;
+      padding: 30px;
+      h5 {
+        font-size: 2.4rem;
+        color: $secondary-color;
+      }
+      p {
+        font-size: 1.6rem;
+        color: $off-color;
+        padding: 30px;
+      }
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: $main-color;
+        font-weight: 600;
+        &:hover {
+          color: $secondary-color;
+          padding-bottom: 5px;
+          border-bottom: 2px solid $main-color;
+        }
+      }
+    }
   }
 }

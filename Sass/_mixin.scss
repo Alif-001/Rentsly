@@ -12,3 +12,12 @@
 @mixin shadow {
   box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.19);
 }
+
+@mixin section-title {
+  font-size: 2rem;
+  color: ($main-color);
+  background: rgba($main-color, 0.04);
+  text-transform: capitalize;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
