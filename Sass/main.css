@@ -164,4 +164,104 @@ nav ul li:hover {
   border: 1px solid red;
   outline: none;
 }
+
+.about-section {
+  margin: 15rem 5rem 0 5rem;
+}
+
+.about-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-section-wrapper .about-img {
+  position: relative;
+}
+
+.about-section-wrapper .about-img .about-img2 {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  left: 0;
+}
+
+.about-section-wrapper .about-text {
+  padding: 0 5rem;
+}
+
+.about-section-wrapper .about-text .about-title {
+  font-size: 2rem;
+  color: #e30916;
+  background: rgba(227, 9, 22, 0.03);
+  text-transform: capitalize;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+
+.about-section-wrapper .about-text h2 {
+  margin-top: 40px;
+  font-size: 4rem;
+}
+
+.about-section-wrapper .about-text h2::after {
+  content: ".";
+  color: #e30916;
+}
+
+.about-section-wrapper .about-text p {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #5c727d;
+}
+
+.about-section-wrapper .about-text .about-features ul {
+  list-style: none;
+  margin-top: 35px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.about-section-wrapper .about-text .about-features ul li {
+  font-size: 1.5rem;
+  color: #5c727d;
+}
+
+.about-section-wrapper .about-text .about-features ul li i {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 100%;
+  background: rgba(227, 9, 22, 0.08);
+  color: #e30916;
+  font-size: 2.5rem;
+}
+
+.about-section-wrapper .about-text .important-note {
+  background: rgba(227, 9, 22, 0.05);
+  border-left: 5px solid #e30916;
+  margin-top: 40px;
+}
+
+.about-section-wrapper .about-text .important-note p {
+  padding: 20px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  max-width: 80%;
+}
+
+.about-section-wrapper .about-text div .about-btn {
+  text-transform: uppercase;
+  background: #e30916;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 30px 0;
+}
 /*# sourceMappingURL=main.css.map */
