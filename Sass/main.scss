@@ -204,3 +204,29 @@ nav ul {
     }
   }
 }
+
+// static section
+
+.statics-section {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 5rem;
+  margin: 7rem 0;
+  background: rgba($off-color, 0.05);
+
+  i {
+    font-size: 7rem;
+    color: $main-color;
+  }
+  h4 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0;
+  }
+  p {
+    font-size: 3rem;
+    color: $off-color;
+  }
+}
