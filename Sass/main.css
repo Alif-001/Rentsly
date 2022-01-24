@@ -410,4 +410,115 @@ nav ul li:hover {
   padding-bottom: 5px;
   border-bottom: 2px solid #e30916;
 }
+
+.footer-section {
+  background: #071c1f;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 3rem;
+}
+
+.footer-section .footer-logo-section .footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-section .footer-logo-section .footer-logo img {
+  width: 6.5rem;
+}
+
+.footer-section .footer-logo-section .footer-logo span {
+  margin-left: 1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.footer-section .footer-logo-section p {
+  max-width: 30rem;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.footer-section .footer-logo-section ul {
+  list-style: none;
+}
+
+.footer-section .footer-logo-section ul li {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.footer-section .footer-other-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5.5rem;
+}
+
+.footer-section .footer-other-section h6 {
+  font-size: 2.5rem;
+}
+
+.footer-section .footer-other-section p {
+  max-width: 30rem;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.footer-section .footer-other-section ul {
+  list-style: none;
+}
+
+.footer-section .footer-other-section ul li {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.footer-copyright {
+  background-color: rgba(7, 28, 31, 0.8);
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.footer-copyright h6 {
+  font-size: 2rem;
+}
+
+.footer-copyright ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.footer-copyright ul li {
+  margin: 0 2rem;
+  font-size: 1.8rem;
+}
 /*# sourceMappingURL=main.css.map */
